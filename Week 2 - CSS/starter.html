@@ -17,7 +17,7 @@
       <img width="250" src="images/headshot.png" />
       <div id="profile-text">
         <p>Hello, I am</p>
-        <h2>Ethan Levine</h2>
+        <h2 id="my-name">Ethan Levine</h2>
         <p>Boston University Student</p>
         <div class="icons">
           <img id="linkedin-img" width="50" src="images/linkedin.png" />
@@ -55,25 +55,24 @@
         </ul>
       </div>
     </div>
+    
 
     <div id="projects">
       <h2>Projects:</h2>
       <div class="project">
         <h4>Project 1 Name</h4>
         <p>Project description here</p>
-        <a
-          target="_blank"
-          href="https://github.com/AlexHack1/EC311-Final-Project"
-          >GitHub</a
-        >
+        <button id="git-button1">GitHub</button>
       </div>
       <div class="project">
         <h4>Project 2 Name</h4>
         <p>Project description here</p>
-        <a target="_blank" href="https://github.com/EthanL3/mock_investor"
-          >GitHub</a
-        >
+        <button id="git-button2">GitHub</button>
       </div>
+    </div>
+    <div>
+      <button id="hide-button">Hide</button>
+      <button id="show-button">Show</button>
     </div>
     <div id="experiences">
       <h2>Experiences:</h2>
@@ -116,5 +115,6 @@
       </div>
       <!-- Add more experiences as needed -->
     </div>
+   <script src="script.js"></script>
   </body>
 </html>
